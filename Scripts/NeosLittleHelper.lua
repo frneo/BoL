@@ -1,7 +1,8 @@
+local version = "0.5"
 --[[
 Script Name: Neo's Little Helper
 Author: Neo
-Version: 0.4
+Version: 0.5
 Revision Date: June 30, 2014
 Purpose: Overhead hud-integrated cooldown tracker and general utility
 --------------------------------------------------------------
