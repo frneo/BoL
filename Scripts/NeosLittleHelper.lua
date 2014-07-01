@@ -1,4 +1,3 @@
-local version = "0.5"
 --[[
 Script Name: Neo's Little Helper
 Author: Neo
@@ -12,6 +11,8 @@ Purpose: Overhead hud-integrated cooldown tracker and general utility
 Version 0.5 
 						- Created github repo
 						- Added autoupdate
+						- Added minimap recall warning ping
+						- Added minimap text
 --------------------------------------------------------------
 Version 0.4
 						- Added 'fog of war' recall exploit warning for VIP's
