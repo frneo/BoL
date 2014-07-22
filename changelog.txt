@@ -1,0 +1,167 @@
+Script Name: Neo's Little Helper
+Author: Neo
+Version: 1.0
+Revision Date: July 21, 2014
+Purpose: Overhead hud-integrated cooldown tracker and general utility
+--------------------------------------------------------------
+@Future features planned: 
+	- Suggestions ?
+--------------------------------------------------------------
+Version 1.0 
+						- Added Aatrox, Anivia and Zac passive cooldown tracker												
+						- Added wards detection, will show on map/minimap. This
+							uses an advanced algorithm to actually detect properly
+							which type of ward was created. This means that, when
+							the packets for that ward weren't triggered (happens 
+							when enemy places ward from FoW into friendly vision),
+							it will actually be able to determine which ward was
+							placed, to display the proper cooldown of that ward
+						- Further improved the algorithm for overhead HUD position,
+						  should now feel like its really part of the game HUD
+						- Overhead HUD visuals improved to reflect these changes
+							in the algorithm
+						- Changed colors of spell-level sprites.
+						- Added alternate, bigger, yet "more compact" over-head HUD 
+						  skin/theme for who wanted a bigger HUD
+						- Code optimization for performance. This does not
+							mean the script is light. I does a lot of processing.
+							If you have every feature ON, you might expect some FPS
+							drop on SLOWER computers. I have a 3 year old processor
+							and I'm fine using this with everything ON	
+--------------------------------------------------------------
+Version 0.94
+						- Added turrets health: won't be displayed if turret
+						  has max health, to not polute the interface.
+							Will be displayed in percentage, with dynamic colors
+							according to health left. Will also display inhibitor
+							and nexus health
+						- Added inhibitors respawn timer. Default color is
+							white, but can be changed from the menu
+--------------------------------------------------------------
+Version 0.931
+						- I decided to remove the "Trackeee" alternate design
+							from the script. After thinking a lot about it, I
+							don't really feel confortable having something here
+							that I didn't design myself. Hope everyone understands
+							how I feel and why I made this decision.
+						- Changed the sprites loading/unloading option a bit
+						  to see if that helps some users who are getting
+							bugsplats on start						
+--------------------------------------------------------------
+Version 0.93
+						- Following up on some requests, I've added an alternate
+							theme to the overhead HUD display, similar to what
+							Trackee used to look like. The design is inspired by
+							a picture someone showed me of Trackee, since I
+							haven't had the chance to try it out myself.
+							If Weee isn't OK with me using a similar design
+							to his, I'll remove this option
+						- Changed recall messages a bit, due to requests
+						- Fixed an issue where things could break if you reloaded
+							during an enemy recall
+						- Sprites extraction code improved
+--------------------------------------------------------------
+Version 0.92
+						- Added option to update sprites from menu, in-game
+						- Script will tell you if you need a sprites update
+						- Huge upgrade in HUD drawing:
+							- Sprites updated to improve both visuals and performance
+							- Smoother drawing of overhead hud
+							- Cool new formula I found should now make overhead hud
+							  "stick" perfectly on healthbar
+							- Optimized performance of hud displays
+							- Changed writing colors a bit to improve recognition
+							  of status
+						- Code optimization, some functions rewritten from scratch
+						- Got rid of annoying "Drag me" image. Now just hold shift
+							and click wherever on the hud to move it
+						VIP's only:
+						- Now clicking on an enemy portrait on the side hud will
+							ping (clientside) where that hero is (or was last seen)
+						- Added detection of Recall channel time. So it will
+							check if channel duration is 8 or 7 seconds for map
+							Summoners Rift and 3.5 or 4 seconds for Dominion
+						- Fix: now checks if map is Summoners Rift to display 
+							jungle timers (will probably be removed in patch 4.12)
+--------------------------------------------------------------
+Version 0.91
+						- Fixed issues for free users
+						- Fixed a possible serialization bug
+--------------------------------------------------------------
+Version 0.9
+						For everyone/free users:
+						- Fixed error where hud position wasn't saving
+						- Added more enemy information to side-hud
+							(enemy missing, death timer)
+						- Added hotkey to toggle side-hud on/off (default: Numpad0)
+						For VIP's only:
+						- Enemy recalling messages are now in a different color
+						- Shows enemy hp in enemy recalling messages,
+							hp will be green, yellow or red, according
+							to percentage
+						- Added customizable jungle timers 
+						- Option to ping (clientside) before jungle spawns
+						- Option to warn in chat(clientside) before jungle spawns
+						- You can now send fully customizable jungle timer 
+							messages to your team (default key: ~tilde).
+							Just move your mouse over the camp in the minimap and
+							press the custom key.
+							You can set your personal msg in NeosLittleHelper.cfg
+							inside Scripts/Common folder
+							
+
+--------------------------------------------------------------
+Version 0.8
+						- HUD WAS UPDATED IN THIS VERSION, PLEASE DOWNLOAD
+							NEWEST SPRITES
+						- Modified side-hud, making the default size larger
+						- Added values to the health and mana/energy bars
+						- Some minor fixes
+--------------------------------------------------------------
+Version 0.72
+						- Fixed creepy hud issue
+---------------------------------------------------------------						
+Version 0.71
+						- Some minor fixes
+						- Added alternate version for who's still on patch 4.10
+---------------------------------------------------------------
+Version 0.7 
+						- Changed whole sprites structure, please redownload
+							sprites, delete old ones, and replace with new
+						- Added fully scalable and moveable side-hud
+--------------------------------------------------------------						
+Version 0.6
+						- Fixed bugsplat on double F9
+						- Added sprites soft reset (Default: "L" key)
+						- Improved drawing visuals
+						- Some minor fixes
+						- Updated sprites: please redownload sprites and 
+							copy them over the old ones							
+
+--------------------------------------------------------------
+Version 0.5 
+						- Created github repo
+						- Added autoupdate
+						- Added minimap recall warning ping
+						- Added minimap text
+--------------------------------------------------------------
+Version 0.4
+						- Added 'fog of war' recall exploit warning for VIP's
+--------------------------------------------------------------
+Version 0.3
+						- Added team cooldowns
+						- Improved hud some more
+						- Cleaned up the code a bit
+--------------------------------------------------------------
+Version 0.21
+						- Fixed SUMMONER_2 position issue
+						- Improved timer positions
+--------------------------------------------------------------
+Version 0.2 
+						- Added hud-integraded levels for each skill
+						- Improved hud visuals
+						- Improved cooldown drawing accuracy
+--------------------------------------------------------------
+Version 0.1 
+						- Initial release
+--------------------------------------------------------------
