@@ -9,7 +9,7 @@ Purpose: Overhead hud-integrated cooldown tracker and general utility
 --------------------------------------------------------------
 Version 1.0 
 						- Added Aatrox, Anivia and Zac passive cooldown tracker												
-						- Added wards detection, will show on map/minimap. This
+						- Added wards tracking, will show on map/minimap. This
 							uses an advanced algorithm to actually detect properly
 							which type of ward was created. This means that, when
 							the packets for that ward weren't triggered (happens 
