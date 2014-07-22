@@ -21,6 +21,7 @@ Version 1.0
 						- Overhead HUD visuals improved to reflect these changes
 							in the algorithm
 						- Changed colors of spell-level sprites.
+						- Changed alpha-level of side-HUD summoners cooldown pics
 						- Added alternate, bigger, yet "more compact" over-head HUD 
 						  skin/theme for who wanted a bigger HUD
 						- Code optimization for performance. This does not
