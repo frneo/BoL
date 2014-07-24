@@ -14,7 +14,7 @@ Version 1.01
 							something. These objects will only show you
 							a brief flash of light when they are placed.
 							The actual item position isn't known, but
-							the script will show you were the champion that placed
+							the script will show you where the champion that placed
 							the item was at the time, so you can known with very good
 							precision where the item was probably placed.
 							You can choose for how long	to display these items as well.
