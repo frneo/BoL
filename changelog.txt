@@ -18,7 +18,8 @@ Version 1.1
 						- Rewrote a lot of stuff to improve performance
 						- Reworked the entire user interface, improving
 							visuals while still getting more performance							
-						- Fixed some bugs						
+						- Fixed some bugs				
+						- New menu option to reset side HUD position						
 						- Sprites were modified heavily, so please don't forget
 							to update your sprites BEFORE updating the script
 --------------------------------------------------------------							
