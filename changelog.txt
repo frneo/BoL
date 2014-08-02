@@ -6,7 +6,9 @@ Purpose: Overhead hud-integrated cooldown tracker and general utility
 --------------------------------------------------------------
 Version 1.3
 						- Added horizontal "side" HUD
-						- Added a safe check to connect/disconnect code						
+						- Added a safe check to connect/disconnect code			
+						- Improved auto-update and sprite-update code to
+						  increase stability
 --------------------------------------------------------------
 Version 1.22
 						- Improved death timer formula, should now be spot on
