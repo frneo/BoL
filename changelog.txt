@@ -1,9 +1,19 @@
 Script Name: Neo's Little Helper
 Author: Neo
-Version: 1.31
-Revision Date: Aug 5, 2014
+Version: 1.32
+Revision Date: Aug 8, 2014
 Purpose: Overhead hud-integrated cooldown tracker and general utility
 --------------------------------------------------------------
+Version 1.32
+						- Made encryption as light as possible. Should
+							help A LOT with loading time.
+						- Fixed issues with wards detection that came up
+							after last hotfix
+						- Wards being deleted when they weren't destroyed
+							has been fixed
+						- Improved wards detection
+						- Now properly detects Pinks placed from FoW
+--------------------------------------------------------------								
 Version 1.31
 						- Fixed a bug in wards detection algorithm	
 --------------------------------------------------------------						
