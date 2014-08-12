@@ -1,8 +1,12 @@
 Script Name: Neo's Little Helper
 Author: Neo
-Version: 1.4
-Revision Date: Aug 9, 2014
+Version: 1.41
+Revision Date: Aug 12, 2014
 Purpose: Overhead hud-integrated cooldown tracker and general utility
+--------------------------------------------------------------
+Version 1.41
+						  - Removed "Unknown" text from wards when the owner
+								wasn't detected
 --------------------------------------------------------------
 Version 1.4
 						  Total revamp of wards algorithm:
