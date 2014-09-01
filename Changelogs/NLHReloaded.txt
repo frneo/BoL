@@ -1,0 +1,12 @@
+r3		- Added separate submenu for all hotkeys
+		- Added customizable hotkey for moving side HUD
+		- Fixed issue where FPS would drop for some users
+		  while they were moving the side HUD
+		- Added option to turn waypoints drawing on for specific
+		  champions
+		- Added hotkey to soft reset sprites
+-------------------------------------
+r2		- Fixed issue with Jinx E
+		- Fixed issue with pink wards
+-------------------------------------
+r1		- Initial release
