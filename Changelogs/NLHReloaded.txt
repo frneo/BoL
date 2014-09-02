@@ -1,3 +1,13 @@
+r4		
+		IMPORTANT: SPRITES WERE UPDATED. UPDATE YOUR SPRITES BEFORE
+		UPDATING THE SCRIPT OR YOU WILL BUGSPLAT. YOU HAVE BEEN WARNED.
+		- Added Classic Theme back. It's a little smaller and
+		  has the green and red cooldown buttons instead of images 
+		  for each skill. You will also see the skill letter on
+		  each button (Q, W, E, R). You can choose between themes
+		  from the menu. Changing theme will require you to reload
+		  the script.		  
+------------------------------------------------------------------
 r3		- Added separate submenu for all hotkeys
 		- Added customizable hotkey for moving side HUD
 		- Fixed issue where FPS would drop for some users
@@ -5,8 +15,8 @@ r3		- Added separate submenu for all hotkeys
 		- Added option to turn waypoints drawing on for specific
 		  champions
 		- Added hotkey to soft reset sprites
--------------------------------------
+------------------------------------------------------------------
 r2		- Fixed issue with Jinx E
 		- Fixed issue with pink wards
--------------------------------------
+------------------------------------------------------------------
 r1		- Initial release
