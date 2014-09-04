@@ -1,3 +1,9 @@
+r5
+		- Fixed an issue with masteries detection for the FoW
+		  recall exploit
+		- Fixed an issue where some text on the sidehud would be off
+		  after resizing it. Thank you zViruSx for the input.
+------------------------------------------------------------------
 r4		
 		IMPORTANT: SPRITES WERE UPDATED. UPDATE YOUR SPRITES BEFORE
 		UPDATING THE SCRIPT OR YOU WILL BUGSPLAT. YOU HAVE BEEN WARNED.
