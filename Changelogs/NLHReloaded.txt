@@ -1,3 +1,8 @@
+r6
+		- Added new champion sprites, including Azir. Please update
+		  your sprites before updating the script
+		- Added horizontal HUD
+------------------------------------------------------------------
 r5
 		- Fixed an issue with masteries detection for the FoW
 		  recall exploit
