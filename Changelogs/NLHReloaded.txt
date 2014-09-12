@@ -3,7 +3,7 @@ r7
 		 your team chat at what time it will be back up (i.e. wukong flash 4:15)
 		 Also, names that are overly complicated or that have common abbreviations
 		 will be modified to seem more human (i.e. instead of "twisted fate flash 4:30"
-		 the message will be "tf flash 4:30"
+		 the message will be "tf flash 4:30")
 ------------------------------------------------------------------
 r6
 		- Added new champion sprites, including Azir. Please update
