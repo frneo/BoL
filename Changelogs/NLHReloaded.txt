@@ -1,9 +1,20 @@
+r8
+		- You can now disable "clicking on a spell icon to send time to chat"
+		  from the menu
+		- You can now chose the time format from the menu. Two options are available
+			as of now:
+			 "mm:ss" -> example: "3:35"
+			 "mmss" -> example: "335"
+		- Added Korean language to "clicking on a spell icon to send time to chat". 
+		  You can choose between English and Korean from the menu ingame.
+			Thank you goes to ggandda who sent me all the Korean names
+------------------------------------------------------------------
 r7
 		- Now clicking on a summoner spell on the side HUD will send in 
-		 your team chat at what time it will be back up (i.e. wukong flash 4:15)
-		 Also, names that are overly complicated or that have common abbreviations
-		 will be modified to seem more human (i.e. instead of "twisted fate flash 4:30"
-		 the message will be "tf flash 4:30")
+			your team chat at what time it will be back up (i.e. wukong flash 4:15)
+			Also, names that are overly complicated or that have common abbreviations
+			will be modified to seem more human (i.e. instead of "twisted fate flash 4:30"
+			the message will be "tf flash 4:30")
 ------------------------------------------------------------------
 r6
 		- Added new champion sprites, including Azir. Please update
@@ -26,7 +37,8 @@ r4
 		  from the menu. Changing theme will require you to reload
 		  the script.		  
 ------------------------------------------------------------------
-r3		- Added separate submenu for all hotkeys
+r3		
+		- Added separate submenu for all hotkeys
 		- Added customizable hotkey for moving side HUD
 		- Fixed issue where FPS would drop for some users
 		  while they were moving the side HUD
@@ -34,7 +46,9 @@ r3		- Added separate submenu for all hotkeys
 		  champions
 		- Added hotkey to soft reset sprites
 ------------------------------------------------------------------
-r2		- Fixed issue with Jinx E
+r2		
+		- Fixed issue with Jinx E
 		- Fixed issue with pink wards
 ------------------------------------------------------------------
-r1		- Initial release
+r1		
+		- Initial release
