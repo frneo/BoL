@@ -1,3 +1,9 @@
+r9
+		- Fixed FoW recall @ patch 4.18. Since the packet structure
+			has completely changed and the information to make sure an enemy
+			has recalled or not isn't there anymore, I used a workaround to
+			get it working. Let me know if you find any bugs.
+------------------------------------------------------------------
 r8
 		- You can now disable "clicking on a spell icon to send time to chat"
 		  from the menu
