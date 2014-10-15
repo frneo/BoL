@@ -1,3 +1,16 @@
+r10
+		- SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
+		- Properly fixed mastery detection for FoW recall. Will now
+			get the proper recall time according to masteries. Credits
+			to redprince who helped me decode some packets
+		- Fixed issue where spell cooldown messages were inverted when
+			using horizontal HUD
+		- Changed the spell icons for transformable heroes. The script
+			will now detect when a hero is transformed and will show
+			the proper icon for their skills. I found this is a lot better
+			and more intuitive to see than previous method ("split icon")
+		- Some minor optimizations to the code
+------------------------------------------------------------------
 r9
 		- Fixed FoW recall @ patch 4.18. Since the packet structure
 			has completely changed and the information to make sure an enemy
