@@ -1,3 +1,12 @@
+r11
+		- SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
+		- Fixed local pings. They had been broken for some time now
+		- Added Kalista sprites. Remember to update sprites manually
+		- Improved some code to increase performance, probably fixing
+		  issues some users were having.
+		- Updated jungle for new Summoner's Rift. Timers and positions
+		  were adjusted and new camps were added
+------------------------------------------------------------------
 r10
 		- SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
 		- Properly fixed mastery detection for FoW recall. Will now
