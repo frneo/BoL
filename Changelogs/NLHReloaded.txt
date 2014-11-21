@@ -1,3 +1,9 @@
+r12
+		- Changed the way the map is detected. Should fix jungle timers
+			for everyone
+		- Fixed Inhibitor timers for new Summoner's Rift
+		- If you still haven't, remember to update your sprites MANUALLY
+------------------------------------------------------------------
 r11
 		- SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
 		- Fixed local pings. They had been broken for some time now
