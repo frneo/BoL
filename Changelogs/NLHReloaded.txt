@@ -1,3 +1,6 @@
+r14
+    - FPS issues from r13 should be all fixed now
+------------------------------------------------------------------
 r13
     - SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
     - Fixed issue where script could stop working in the middle 
