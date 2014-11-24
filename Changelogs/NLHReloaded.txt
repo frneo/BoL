@@ -1,3 +1,15 @@
+r13
+    - SPRITES WERE UPDATED: PLEASE UPDATE SPRITES MANUALLY
+    - Fixed issue where script could stop working in the middle 
+		  of the match (after patch 4.20)
+		- Fixed issue where script could stop working after double F9
+		  (after patch 4.20)
+		- Added all 4 new smite types and sprites for them
+		- Fixed issue with soft reset of sprites, should be working
+		  100% now
+		- Optimized code for performance, should help those running
+		  BoL on old calculators
+------------------------------------------------------------------
 r12
 		- Changed the way the map is detected. Should fix jungle timers
 			for everyone
