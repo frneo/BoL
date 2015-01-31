@@ -15,6 +15,7 @@ end
 function CheckLastAction()
   if GetTickCount() - LastAction > 10000 then
 	  myHero:MoveTo(myHero.x, myHero.z)
+		LastAction = GetTickCount()
 	end
 end
 
