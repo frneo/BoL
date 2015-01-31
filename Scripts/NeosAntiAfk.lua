@@ -1,3 +1,4 @@
+local version = 0.1
 local TickLimit = 100
 
 local LastAction
