@@ -4,9 +4,6 @@ local LastAction
 local LastTick
 
 function OnLoad()
-  if myHero:CanUseSpell(RECALL) then
-	  PrintChat("yes")
-	end
 	LastAction = GetTickCount()
 	LastTick = GetTickCount()
 	config = scriptConfig("Neo's Anti-AFK", "NeosAntiAFK")
@@ -17,6 +14,7 @@ end
 function CheckLastAction()
   if GetTickCount() - LastAction > 20000 then
 	  myHero:MoveTo(myHero.x, myHero.z)
+		LastAction = GetTickCount()
 	end
 end
 
