@@ -42,12 +42,13 @@ end
 function AutoUpdate(host, script, version)
   ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..version.."&rand="..tostring(math.random(1000)),
         function(getupdate)
-            if getupdate > version then            
+            if getupdate > version then
+            --if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
                 print("Starting AutoUpdate")
                 ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..script.."&rand="..tostring(math.random(1000)),
                 function(getupdate)
                     if getupdate then
-                        file = io.open(SCRIPT_PATH..GetCurrentEnv().FILE_NAME, "wb")
+                        file = io.open(SCRIPT_PATH.."/".._ENV.FILE_NAME, "wb")
                         file:write(getupdate)
                         file:close()
                         print("script updated, please reload")
@@ -61,3 +62,16 @@ end
 
 AutoUpdate("raw.githubusercontent.com", "/frneo/BoL/master/Scripts/testautoupdate.lua",  "/frneo/BoL/master/version/testautoupdate.version")
         
+        --[[self.ScriptRAW = self.ScriptReceive
+        local ScriptFileOpen = io.open(self.SavePath, "w+")
+        ScriptFileOpen:write(self.ScriptRAW)
+        ScriptFileOpen:close()]]
+
+local ForceReload = false
+--ScriptUpdate(version,
+    --"raw.githubusercontent.com",
+    --"/frneo/BoL/master/version/testautoupdate.version",
+    --"/frneo/BoL/master/Scripts/testautoupdate.lua",
+    --SCRIPT_PATH.."/" .. GetCurrentEnv().FILE_NAME,
+    --function(NewVersion) if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
+--end)
