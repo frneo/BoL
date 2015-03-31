@@ -54,10 +54,10 @@ function ScriptUpdate:DownloadUpdate()
 end
 
 local ForceReload = false
-ScriptUpdate(AutoSmite_Version,
+ScriptUpdate(version,
 	"raw.githubusercontent.com",
 	"frneo/BoL/master/version/testautoupdate.version",
 	"/frneo/BoL/master/Scripts/testautoupdate.lua",
 	SCRIPT_PATH.."/" .. GetCurrentEnv().FILE_NAME,
-	function(NewVersion) if NewVersion > AutoSmite_Version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
+	function(NewVersion) if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
 end)
