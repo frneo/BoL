@@ -1,4 +1,3 @@
-local version = 0.92
 
 class("ScriptUpdate")
 function ScriptUpdate:__init(host, path, callback)
@@ -42,8 +41,7 @@ end
 function AutoUpdate(host, script, serverversion, localversion)
   ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..serverversion.."&rand="..tostring(math.random(1000)),
         function(getupdate)
-            if getupdate > localversion then
-            --if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
+            if tonumber(getupdate) > localversion then            
                 print("Starting AutoUpdate")
                 ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..script.."&rand="..tostring(math.random(1000)),
                 function(getupdate)
@@ -61,17 +59,3 @@ function AutoUpdate(host, script, serverversion, localversion)
 end
 
 AutoUpdate("raw.githubusercontent.com", "/frneo/BoL/master/Scripts/testautoupdate.lua", "/frneo/BoL/master/version/testautoupdate.version", version)
-        
-        --[[self.ScriptRAW = self.ScriptReceive
-        local ScriptFileOpen = io.open(self.SavePath, "w+")
-        ScriptFileOpen:write(self.ScriptRAW)
-        ScriptFileOpen:close()]]
-
-local ForceReload = false
---ScriptUpdate(version,
-    --"raw.githubusercontent.com",
-    --"/frneo/BoL/master/version/testautoupdate.version",
-    --"/frneo/BoL/master/Scripts/testautoupdate.lua",
-    --SCRIPT_PATH.."/" .. GetCurrentEnv().FILE_NAME,
-    --function(NewVersion) if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
---end)
