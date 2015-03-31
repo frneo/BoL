@@ -39,10 +39,10 @@ function ScriptUpdate:CB()
 end
 
 
-function AutoUpdate(host, script, version)
-  ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..version.."&rand="..tostring(math.random(1000)),
+function AutoUpdate(host, script, serverversion, localversion)
+  ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..serverversion.."&rand="..tostring(math.random(1000)),
         function(getupdate)
-            if getupdate > version then
+            if getupdate > localversion then
             --if NewVersion > version then print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest : </b></font> <font color=\"#FF0F0F\">Updated to "..NewVersion..". Please Reload with 2x F9</b></font>") ForceReload = true else print("<font color=\"#F0Ff8d\"><b>AutoUpdateTest: </b></font> <font color=\"#FF0F0F\">You have the Latest Version</b></font>") end 
                 print("Starting AutoUpdate")
                 ScriptUpdate("teh-team.com", "/bolupdater/scriptupdater.php?script="..host..script.."&rand="..tostring(math.random(1000)),
@@ -60,7 +60,7 @@ function AutoUpdate(host, script, version)
         end)    
 end
 
-AutoUpdate("raw.githubusercontent.com", "/frneo/BoL/master/Scripts/testautoupdate.lua",  "/frneo/BoL/master/version/testautoupdate.version")
+AutoUpdate("raw.githubusercontent.com", "/frneo/BoL/master/Scripts/testautoupdate.lua", "/frneo/BoL/master/version/testautoupdate.version", version)
         
         --[[self.ScriptRAW = self.ScriptReceive
         local ScriptFileOpen = io.open(self.SavePath, "w+")
