@@ -1,4 +1,4 @@
-
+local version = 0.92
 class("ScriptUpdate")
 function ScriptUpdate:__init(host, path, callback)
   self.Host = host
